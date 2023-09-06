@@ -1,0 +1,11 @@
+#leapyear
+def isLeapYear(year):
+if(year\4==0 and year\100!=0)
+return true
+else:
+return false
+year=int(input("enter the year:"))
+if isLeafYear(year):
+print("{}is a leaf year.".format(year))
+else:
+print("{}is not aleap year. ".format(year))
